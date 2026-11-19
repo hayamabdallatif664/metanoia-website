@@ -1,0 +1,17 @@
+{
+  "name": "متانويا Metanoia",
+  "short_name": "Metanoia",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#042c2d",
+  "theme_color": "#042c2d",
+  "icons": [
+    {
+      "src": "/assets/img/apple-touch-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
