@@ -183,3 +183,12 @@ details.all-lines summary{cursor:pointer;font-weight:700}
 
 /* Very narrow screens (under 360px): keep the header on one line. */
 @media (max-width:360px){.head-row{gap:8px}.lang-btn{padding:0 10px}.brand{gap:6px}.brand img{width:32px;height:32px}.brand b{font-size:18px}}
+
+/* Our Story */
+.story > p:first-child{font-size:clamp(20px,2.4vw,24px);font-weight:700;color:var(--cream)}
+.story-list{list-style:none;padding:0;margin:0 0 1.2em;display:grid;gap:10px}
+.story-list li{padding:14px 18px;border-radius:14px;background:var(--card);border:1px solid var(--line);color:var(--cream-dim)}
+.signature{margin-top:36px;padding-top:28px;border-top:1px solid var(--line);text-align:center}
+.signature p{margin:0 0 6px;font-size:clamp(19px,2.2vw,23px);color:var(--gold);font-weight:700}
+[lang=en] .signature p{font-family:var(--f-display);font-weight:400}
+.signature .tagline{margin-top:14px;font-size:13px;color:var(--cream-faint);font-weight:400}

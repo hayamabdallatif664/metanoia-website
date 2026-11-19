@@ -25,7 +25,7 @@
     ['companion', 'companion.html', 'الرفيق', 'The Companion'],
     ['institutions', 'institutions.html', 'للمؤسسات', 'For Institutions'],
     ['safety', 'safety.html', 'الأمان والثقة', 'Safety & Trust'],
-    ['story', 'story.html', 'قصتنا', 'Our Story'],
+    ['story', 'story.html', 'حكايتنا', 'Our Story'],
     ['contact', 'contact.html', 'تواصل معنا', 'Contact']
   ];
   function bi(ar, en) { return '<span class="ar">' + ar + '</span><span class="en">' + en + '</span>'; }
@@ -58,7 +58,7 @@
         '<li><a href="' + base + 'companion.html">' + bi('الرفيق', 'The Companion') + '</a></li>' +
         '<li><a href="' + base + 'institutions.html">' + bi('للمؤسسات', 'For Institutions') + '</a></li>' +
         '<li><a href="' + base + 'institutions.html#login">' + bi('دخول المؤسسات', 'Institution login') + '</a></li>' +
-        '<li><a href="' + base + 'story.html">' + bi('قصتنا', 'Our Story') + '</a></li></ul></div>' +
+        '<li><a href="' + base + 'story.html">' + bi('حكايتنا', 'Our Story') + '</a></li></ul></div>' +
       '<div><h4>' + bi('الثقة', 'Trust') + '</h4><ul>' +
         '<li><a href="' + base + 'safety.html">' + bi('الأمان والثقة', 'Safety & Trust') + '</a></li>' +
         '<li><a href="' + base + 'legal.html#privacy">' + bi('الخصوصية', 'Privacy') + '</a></li>' +
