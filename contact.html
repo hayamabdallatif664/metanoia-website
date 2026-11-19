@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تواصل معنا · متانويا</title>
+<meta name="title-ar" content="تواصل معنا · متانويا">
+<meta name="title-en" content="Contact · Metanoia">
+<meta name="description" content="تواصل مع متانويا: عرض أو تجربة لمؤسستك، أو تجربة التطبيق، أو الإبلاغ عن ردّ، أو حذف بياناتك.">
+<link rel="canonical" href="https://withmetanoia.app/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="متانويا Metanoia">
+<meta property="og:title" content="تواصل معنا · متانويا">
+<meta property="og:description" content="تواصل مع متانويا: عرض أو تجربة لمؤسستك، أو تجربة التطبيق، أو الإبلاغ عن ردّ، أو حذف بياناتك.">
+<meta property="og:url" content="https://withmetanoia.app/contact.html">
+<meta property="og:image" content="https://withmetanoia.app/assets/img/og-image.png">
+<meta property="og:locale" content="ar_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#042c2d">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Nunito+Sans:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+<script>try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('metanoia-site-lang');if(l==='en'){document.documentElement.lang='en';document.documentElement.dir='ltr'}}catch(e){}</script>
+<script src="assets/config.js" defer></script>
+<script src="assets/helplines.js" defer></script>
+<script src="assets/site.js" defer></script>
+</head>
+<body data-page="contact">
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1><span class="ar">تواصل معنا</span><span class="en">Contact us</span></h1>
+    <p class="lead"><span class="ar">عرض أو تجربة لمؤسستك، أو تجربة التطبيق، أو الإبلاغ عن ردّ، أو حذف بياناتك. راسلنا وسنردّ عليك.</span><span class="en">A demo or pilot for your institution, trying the app, reporting a reply, or deleting your data. Write to us and we will reply.</span></p>
+    <p class="small muted" data-when="contactEmail" hidden><span class="ar">أو راسلنا عبر البريد الإلكتروني:</span><span class="en">Or email</span> <a data-href="contactEmail" data-text="contactEmail" href="#"></a></p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap grid g2" style="align-items:start">
+    <form id="pilot-form" class="card" novalidate>
+      <div class="field">
+        <label for="f-topic"><span class="ar">الموضوع</span><span class="en">Topic</span></label>
+        <select id="f-topic" name="topic" required>
+          <option value="pilot" data-ar="برنامج تجريبي لمؤسسة" data-en="Pilot for an institution">برنامج تجريبي لمؤسسة</option>
+          <option value="demo" data-ar="عرض توضيحي لمؤسسة" data-en="Demo for an institution">عرض توضيحي لمؤسسة</option>
+          <option value="try" data-ar="أرغب في تجربة التطبيق" data-en="I want to try the app">أرغب في تجربة التطبيق</option>
+          <option value="report" data-ar="الإبلاغ عن ردّ" data-en="Report a reply">الإبلاغ عن ردّ</option>
+          <option value="delete" data-ar="حذف بياناتي" data-en="Delete my data">حذف بياناتي</option>
+          <option value="other" data-ar="موضوع آخر" data-en="Something else">موضوع آخر</option>
+        </select>
+      </div>
+      <div class="grid g2">
+        <div class="field">
+          <label for="f-name"><span class="ar">الاسم</span><span class="en">Name</span></label>
+          <input id="f-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="f-email"><span class="ar">البريد الإلكتروني</span><span class="en">Email</span></label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required dir="ltr">
+        </div>
+      </div>
+      <div data-org>
+        <div class="grid g2">
+          <div class="field">
+            <label for="f-org"><span class="ar">المؤسسة</span><span class="en">Organisation</span></label>
+            <input id="f-org" name="organisation" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="f-role"><span class="ar">دورك فيها</span><span class="en">Your role</span></label>
+            <input id="f-role" name="role" autocomplete="organization-title">
+          </div>
+        </div>
+        <div class="grid g2" style="margin-top:16px">
+          <div class="field">
+            <label for="f-country"><span class="ar">البلد</span><span class="en">Country</span></label>
+            <input id="f-country" name="country" autocomplete="country-name">
+          </div>
+          <div class="field">
+            <label for="f-size"><span class="ar">العدد التقريبي للأفراد</span><span class="en">Approx. number of people</span></label>
+            <input id="f-size" name="people" inputmode="numeric">
+          </div>
+        </div>
+        <fieldset class="field" style="margin-top:16px">
+          <legend><span class="ar">الوحدات التي تهمّك</span><span class="en">Modules you are interested in</span></legend>
+          <span class="hint"><span class="ar">اختياري، وليس التزامًا.</span><span class="en">Optional. Not a commitment.</span></span>
+          <div class="checks">
+            <label class="check"><input type="checkbox" name="modules" value="access"><span><span class="ar">الوصول والرعاية</span><span class="en">Access &amp; Sponsorship</span></span></label>
+            <label class="check"><input type="checkbox" name="modules" value="analytics"><span><span class="ar">تحليلات الاستخدام</span><span class="en">Engagement Analytics</span></span></label>
+            <label class="check"><input type="checkbox" name="modules" value="programs"><span><span class="ar">برامج العافية</span><span class="en">Wellbeing Programs</span></span></label>
+            <label class="check"><input type="checkbox" name="modules" value="surveys"><span><span class="ar">الاستبيانات والآراء</span><span class="en">Surveys &amp; Feedback</span></span></label>
+            <label class="check"><input type="checkbox" name="modules" value="support"><span><span class="ar">مسار الدعم البشري</span><span class="en">Human Support Workflow</span></span></label>
+            <label class="check"><input type="checkbox" name="modules" value="events"><span><span class="ar">الفعاليات وورش العمل</span><span class="en">Events &amp; Workshops</span></span></label>
+            <label class="check"><input type="checkbox" name="modules" value="impact"><span><span class="ar">تقارير الأثر</span><span class="en">Impact Reporting</span></span></label>
+            <label class="check"><input type="checkbox" name="modules" value="custom"><span><span class="ar">إعدادات مخصّصة</span><span class="en">Custom Configurations</span></span></label>
+          </div>
+        </fieldset>
+      </div>
+      <div class="field">
+        <label for="f-msg"><span class="ar">رسالتك</span><span class="en">Your message</span></label>
+        <textarea id="f-msg" name="message"></textarea>
+        <span class="hint"><span class="ar">يُرجى عدم كتابة تفاصيل شخصية عن صحتك هنا. إذا كنت في خطر الآن، فاتصل برقم الطوارئ في بلدك.</span><span class="en">Please do not write personal health details here. In danger now, call your country's emergency number.</span></span>
+      </div>
+      <label class="check"><input type="checkbox" name="consent" value="yes" required><span><span class="ar">أوافق على أن تستخدم متانويا هذه البيانات للرد عليّ فقط.</span><span class="en">I agree Metanoia uses this information only to reply to me.</span></span></label>
+      <div id="form-msg" class="form-msg" role="status" tabindex="-1"></div>
+      <button class="btn btn-gold" type="submit"><span class="ar">إرسال</span><span class="en">Send</span></button>
+    </form>
+
+    <div class="grid" style="gap:18px">
+      <div class="card">
+        <h3><span class="ar">للمؤسسات</span><span class="en">For institutions</span></h3>
+        <p class="muted"><span class="ar">بعد وصول رسالتك، نحدّد معك موعدًا لمكالمة تعارف. نعرض عليك بصراحة ما هو جاهز وما ليس جاهزًا، ونستمع إلى احتياجاتكم.</span><span class="en">Once we have your message, we set up a discovery call. We show you honestly what is ready and what is not, and listen to what you need.</span></p>
+        <a href="institutions.html"><span class="ar">اطّلع على الوحدات ←</span><span class="en">See the modules →</span></a>
+      </div>
+      <div class="notice">
+        <h3><span class="ar">تحتاج إلى مساعدة الآن؟</span><span class="en">Need help right now?</span></h3>
+        <p style="margin:0"><span class="ar">هذا النموذج ليس للطوارئ، وقد يتأخر الرد. اتصل برقم الطوارئ في بلدك. <a href="safety.html#help">أرقام المساعدة حسب البلد</a></span><span class="en">This form is not for emergencies and replies may take time. Call your country's emergency number. <a href="safety.html#help">Help lines by country</a></span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+</body>
+</html>
